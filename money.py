@@ -6,3 +6,4 @@ taxPct = int(tax)/100
 netPay = int(gross) - (int(hrsWk)*int(hrlyWg)*float(taxPct))
 print("Your gross pay is: $", gross)
 print("Your net pay is: $", netPay)
+print("You have to pay $" + taxPct*netPay + " in taxes.")
