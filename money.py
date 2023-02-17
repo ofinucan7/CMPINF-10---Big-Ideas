@@ -1,3 +1,4 @@
+name = input(prompt = "What is your name?")
 hrsWk = input(prompt="How many hours did you work?")
 hrlyWg = input(prompt="What is your hourly wage?")
 tax = input(prompt="What tax percent do you pay?")
@@ -6,4 +7,4 @@ taxPct = int(tax)/100
 netPay = int(gross) - (int(hrsWk)*int(hrlyWg)*float(taxPct))
 print("Your gross pay is: $", gross)
 print("Your net pay is: $", netPay)
-print("You have to pay $" + taxPct*netPay + " in taxes.")
+print("You have to pay $" + str(taxPct*netPay) + " in taxes.")
