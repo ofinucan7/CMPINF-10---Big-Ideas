@@ -1,5 +1,8 @@
 # Contributor Covenant Code of Conduct
 
+## General
+We want everyone to be able to easily calculate roughly what percentage tax they will be paying. The point is to help as many people as possible. For other guidelines, see below:
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
